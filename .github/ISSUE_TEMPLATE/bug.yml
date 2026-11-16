@@ -1,0 +1,41 @@
+name: Bug report / Zgłoszenie błędu
+description: Something in ABE does not work as expected. / Coś w ABE nie działa tak, jak powinno.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! English or Polish — both are fine. / Dziękuję! Po polsku albo po angielsku.
+        **Do not attach boards you cannot share publicly.** / **Nie załączaj płytek, których nie możesz pokazać publicznie.**
+  - type: input
+    id: wersja
+    attributes:
+      label: ABE version / Wersja ABE
+      description: Help → About (e.g. 0.4.22) / Pomoc → O programie
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: System
+      options: [Windows, Linux, ABE Web (browser / przeglądarka)]
+    validations:
+      required: true
+  - type: textarea
+    id: kroki
+    attributes:
+      label: What did you do? / Co zrobiłeś?
+      placeholder: "1. Opened a .brd file\n2. Ran DRC\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: wynik
+    attributes:
+      label: What happened, and what did you expect? / Co się stało, a czego się spodziewałeś?
+    validations:
+      required: true
+  - type: textarea
+    id: zalaczniki
+    attributes:
+      label: Screenshot or log / Zrzut ekranu albo dziennik
+      description: Optional. / Nieobowiązkowe.

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Tutorials / Poradniki
+    url: https://abe.kassp.pl/witaj/poradniki.html
+    about: Step by step, with screenshots. / Krok po kroku, ze zrzutami.
+  - name: Questions / Pytania
+    url: https://github.com/ABEKarolSzymanski/ABE/discussions
+    about: Ask and share your projects. / Zapytaj i pokaż swój projekt.

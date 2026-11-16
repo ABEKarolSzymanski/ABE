@@ -1,0 +1,19 @@
+name: Idea / Pomysł
+description: Something you miss from Eagle, or a new feature. / Czegoś brakuje z Eagle albo nowa funkcja.
+labels: [idea]
+body:
+  - type: textarea
+    id: potrzeba
+    attributes:
+      label: What do you want to do? / Co chcesz zrobić?
+      description: Describe the task, not only the button. / Opisz zadanie, nie tylko przycisk.
+    validations:
+      required: true
+  - type: input
+    id: eagle
+    attributes:
+      label: How did Eagle (or another program) do it? / Jak to robił Eagle (albo inny program)?
+  - type: textarea
+    id: wiecej
+    attributes:
+      label: Anything else / Coś jeszcze
